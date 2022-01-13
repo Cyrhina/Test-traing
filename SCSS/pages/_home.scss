@@ -1,0 +1,296 @@
+.banner {
+  background-color: #36517e;
+
+  &__wrapper {
+    .banner-content {
+      align-items: center;
+      padding: 8rem 0;
+      .banner-description {
+        color: white;
+
+        h2 {
+          font-size: 4rem;
+          line-height: 5rem;
+          font-weight: 700;
+        }
+        p {
+          color: rgba(255, 255, 255, 0.6);
+          font-size: 2.3rem;
+          line-height: 3rem;
+          font-weight: 500;
+        }
+        .banner-button {
+          display: inline-block;
+          align-items: center;
+          .banner-getstart {
+            margin-top: 4rem;
+            margin-right: 4rem;
+            display: inline-block;
+            border: 2px solid #00a6eb;
+            border-radius: 25%;
+            padding: 1rem 2rem;
+            line-height: 2rem;
+            font-weight: 400;
+            align-items: center;
+          }
+          a {
+            align-items: center;
+
+            i {
+              margin-right: 1rem;
+              font-size: 3rem;
+            }
+          }
+        }
+      }
+      .banner-img {
+        img {
+          width: 100%;
+          height: auto;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+
+.advertisment {
+  background-color: #f3f5fa;
+  padding: 3rem 0;
+  &__wrapper {
+    .advertisment-images {
+      align-items: center;
+      .advertisment-image-list {
+        img {
+          width: 45%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+.about {
+  padding: 8rem 0;
+  color: rgba(34, 34, 34, 0.6);
+  &__wrapper {
+    .about-title {
+      font-size: 3rem;
+      line-height: 3rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #36517e;
+    }
+    .about-description {
+      .about-paragraph {
+        padding: 2rem 0;
+        p {
+          font-size: 2rem;
+          line-height: 2rem;
+        }
+        .about-description-list {
+          ul li {
+            margin-top: 2rem;
+            font-size: 2rem;
+            line-height: 2rem;
+          }
+          i {
+            margin-right: 1rem;
+            color: #00a6eb;
+          }
+        }
+      }
+
+      .about-learnmore {
+        color: #00a6eb;
+        font-weight: 400;
+        font-size: 2rem;
+        margin-top: 5rem;
+        a {
+          border: 2px solid #00a6eb;
+          border-radius: 2px;
+          padding: 0.5rem 3rem;
+        }
+      }
+    }
+  }
+}
+
+.info-about {
+  padding: 8rem 0;
+  background-color: #f3f5fa;
+
+  &__wrapper {
+    flex-direction: column-reverse;
+  }
+  .info-about-description {
+    h2 {
+      font-size: 3rem;
+      line-height: 3rem;
+      color: #36517e;
+      margin-bottom: 2rem;
+      span {
+        font-weight: 700;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+    p {
+      color: rgba(34, 34, 34, 0.6);
+    }
+  }
+  .info-about-list {
+    color: rgba(14, 14, 14, 0.6);
+    margin-top: 3rem;
+
+    ul li {
+      background-color: white;
+      padding: 2rem;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      margin: 2rem 0;
+      font-weight: 600;
+      //display: flex;
+      //justify-content: space-between;
+
+      i {
+        margin-left: 12rem;
+      }
+    }
+    span {
+      color: #00a6eb;
+      font-weight: 600;
+      font-size: 2rem;
+      margin-right: 2rem;
+    }
+  }
+}
+
+.about-perentage {
+  padding: 8rem 0;
+
+  &__wrapper {
+    flex-direction: column-reverse;
+  }
+  .about-perentage-description {
+    h2 {
+      font-size: 3rem;
+      line-height: 3rem;
+      color: #36517e;
+      margin-bottom: 2rem;
+      span {
+        font-weight: 700;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+    p {
+      color: rgba(34, 34, 34, 0.6);
+    }
+  }
+  .about-perentage-list {
+    color: rgba(14, 14, 14, 0.6);
+    margin-top: 3rem;
+
+    ul li {
+      background-color: white;
+      padding: 2rem;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      margin: 2rem 0;
+      font-weight: 600;
+      //display: flex;
+      //justify-content: space-between;
+
+      i {
+        margin-left: 12rem;
+      }
+    }
+    span {
+      color: #00a6eb;
+      font-weight: 600;
+      font-size: 2rem;
+      margin-right: 2rem;
+    }
+  }
+}
+
+.service {
+  padding: 7rem 0;
+  background-color: #f3f5fa;
+
+  &__wrapper {
+    .about-title {
+      font-size: 3rem;
+      line-height: 3rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #36517e;
+    }
+    p {
+      margin: 3rem 0;
+      text-align: center;
+      line-height: 2.5rem;
+      color: rgba(9, 9, 9, 0.926);
+    }
+    .boxone {
+      background-color: white;
+      padding: 6rem 3rem;
+
+      h3 {
+        font-size: 2rem;
+        margin: 2rem 0;
+        color: #36517e;
+        font-weight: 600;
+      }
+      i {
+        font-size: 3rem;
+        color: #00a6eb;
+      }
+      h4 {
+        line-height: 2rem;
+        color: rgba(14, 14, 14, 0.6);
+      }
+    }
+  }
+}
+
+.call-action {
+  //height: 35vh;
+  //background-image: url(https://www.facilitiesnet.com/resources/editorial/2018/build_.jpeg);
+  //background-position: top
+  //background-size: cover;
+  //background-repeat: no-repeat;
+  background-color: #36517e;
+
+  &__wrapper {
+    padding: 8rem 0;
+
+    .calltoaction-seperation {
+      .calltoaction {
+        h2 {
+          font-size: 3rem;
+          line-height: 3rem;
+          color: white;
+          font-weight: 700;
+        }
+        p {
+          margin-top: 1rem;
+          line-height: 2rem;
+          color: white;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
