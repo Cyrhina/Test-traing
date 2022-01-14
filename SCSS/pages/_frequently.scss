@@ -1,0 +1,39 @@
+.frequently {
+  padding: 8rem 0;
+  background-color: #f3f5fa;
+
+  &__wrapper {
+    p {
+      text-align: center;
+      line-height: 2rem;
+      font-weight: 500;
+      font-size: 1.5rem;
+      color: rgba(14, 14, 14, 0.6);
+    }
+
+    .frequently-about-list {
+      color: rgba(14, 14, 14, 0.6);
+      margin-top: 3rem;
+      //width: 50%;
+      // display: block;
+      //justify-content: center;
+
+      ul li {
+        background-color: white;
+        padding: 2rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin: 2rem 0;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+      }
+      span {
+        color: #00a6eb;
+        font-weight: 600;
+        font-size: 2rem;
+        margin-right: 2rem;
+      }
+    }
+  }
+}

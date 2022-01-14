@@ -1,0 +1,89 @@
+.contact {
+  padding: 8rem 0;
+  &__wrapper {
+    p {
+      text-align: center;
+      line-height: 2rem;
+      font-weight: 500;
+      font-size: 1.5rem;
+      color: rgba(14, 14, 14, 0.6);
+    }
+    .contact-description {
+      margin: 3rem 0;
+      border-top: 2px solid #00a6eb;
+      border-bottom: 2px solid #00a6eb;
+      background-color: whitesmoke;
+      .contact-des {
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+        i {
+          margin-right: 2rem;
+          background-color: #e7f5fb;
+          padding: 0.8rem;
+          border-radius: 100%;
+          color: #00a6eb;
+        }
+        pre {
+          font-size: 2rem;
+          line-height: 3rem;
+          font-weight: 700;
+          color: #36517e;
+          span {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #00a6eb;
+          }
+        }
+      }
+
+      .contact-message {
+        padding: 2rem;
+        color: rgba(14, 14, 14, 0.6);
+        .messagebox {
+          margin-top: 2rem;
+          pre {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            color: rgba(14, 14, 14, 0.6);
+          }
+        }
+        input {
+          height: 3rem;
+          margin: 1rem 0;
+          width: 100%;
+        }
+        span {
+          input {
+            height: 20rem;
+            margin: 1rem 0;
+            width: 100%;
+          }
+          textarea {
+            margin-top: 1rem;
+          }
+        }
+      }
+      .message-button {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        a {
+          font-size: 1.3rem;
+          position: relative;
+          border-radius: 2rem;
+          border: 1px solid #00a6eb;
+          padding: 5px 2rem;
+          color: black;
+          cursor: pointer;
+        }
+        .active {
+          background-color: #00a6eb;
+          color: white;
+        }
+      }
+    }
+  }
+}
