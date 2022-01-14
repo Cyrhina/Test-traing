@@ -27,7 +27,8 @@
             margin-right: 4rem;
             display: inline-block;
             border: 2px solid #00a6eb;
-            border-radius: 25%;
+            position: relative;
+            border-radius: 3rem;
             padding: 1rem 2rem;
             line-height: 2rem;
             font-weight: 400;
@@ -59,10 +60,13 @@
   padding: 3rem 0;
   &__wrapper {
     .advertisment-images {
-      align-items: center;
+      justify-content: space-between;
+      display: flex;
       .advertisment-image-list {
+        padding: 3rem 0;
         img {
           width: 45%;
+          opacity: 0.3;
           height: auto;
         }
       }
@@ -74,15 +78,6 @@
   padding: 8rem 0;
   color: rgba(34, 34, 34, 0.6);
   &__wrapper {
-    .about-title {
-      font-size: 3rem;
-      line-height: 3rem;
-      text-align: center;
-      margin-bottom: 2rem;
-      text-transform: uppercase;
-      font-weight: 700;
-      color: #36517e;
-    }
     .about-description {
       .about-paragraph {
         padding: 2rem 0;
@@ -198,27 +193,33 @@
   }
   .about-perentage-list {
     color: rgba(14, 14, 14, 0.6);
-    margin-top: 3rem;
 
-    ul li {
-      background-color: white;
-      padding: 2rem;
-      font-size: 1.5rem;
-      line-height: 2rem;
-      margin: 2rem 0;
-      font-weight: 600;
-      //display: flex;
-      //justify-content: space-between;
-
-      i {
-        margin-left: 12rem;
+    .seperate {
+      display: flex;
+      justify-content: space-between;
+      text-transform: uppercase;
+      margin-top: 2rem;
+      h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: 600;
       }
     }
-    span {
-      color: #00a6eb;
-      font-weight: 600;
-      font-size: 2rem;
-      margin-right: 2rem;
+
+    .progressbar {
+      position: relative;
+      height: 10px;
+      width: 100%;
+      background-color: black;
+      border-radius: 10px;
+
+      span {
+        height: 100%;
+        width: 100%;
+        background-color: #36517e;
+        position: absolute;
+        border-radius: 10px;
+      }
     }
   }
 }
@@ -228,15 +229,6 @@
   background-color: #f3f5fa;
 
   &__wrapper {
-    .about-title {
-      font-size: 3rem;
-      line-height: 3rem;
-      text-align: center;
-      margin-bottom: 2rem;
-      text-transform: uppercase;
-      font-weight: 700;
-      color: #36517e;
-    }
     p {
       margin: 3rem 0;
       text-align: center;
@@ -275,22 +267,48 @@
 
   &__wrapper {
     padding: 8rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     .calltoaction-seperation {
-      .calltoaction {
-        h2 {
-          font-size: 3rem;
-          line-height: 3rem;
-          color: white;
-          font-weight: 700;
-        }
-        p {
-          margin-top: 1rem;
-          line-height: 2rem;
-          color: white;
-          font-size: 1.5rem;
-        }
+      margin-right: 9rem;
+      h2 {
+        font-size: 3rem;
+        line-height: 3rem;
+        color: white;
+        font-weight: 700;
       }
+      p {
+        margin-top: 1rem;
+        line-height: 2rem;
+        color: white;
+        font-size: 1.5rem;
+      }
+    }
+    .calltoaction-button {
+      position: relative;
+      border-radius: 3rem;
+      border: 3px solid white;
+      padding: 2rem;
+
+      a {
+        color: white;
+        font-size: 2rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.portfolio {
+  padding: 8rem 0;
+  &__wrapper {
+    text-align: center;
+
+    .portfolio-navigation {
+      align-items: center;
+      display: flex;
     }
   }
 }
