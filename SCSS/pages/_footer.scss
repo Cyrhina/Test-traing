@@ -33,4 +33,22 @@
 .footer {
   padding: 3rem 0;
   background-color: $color--maindarkblue;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    span {
+      font-weight: 700;
+    }
+    h2 {
+      display: flex;
+      justify-content: space-between;
+      p {
+        margin-left: 0.5rem;
+        color: $color--buttonblue;
+      }
+    }
+  }
 }
