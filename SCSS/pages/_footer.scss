@@ -1,0 +1,36 @@
+.semi-footer {
+  padding: 8rem 0;
+
+  &__wrapper {
+    .semi-footer-info {
+      .footer-discription {
+        h2 {
+          font-size: 2rem;
+          color: $color--maindarkblue;
+          line-height: 2rem;
+          font-weight: 700;
+          margin-bottom: 2rem;
+          span {
+            text-transform: uppercase;
+          }
+        }
+        pre {
+          margin-bottom: 2rem;
+          line-height: 2rem;
+        }
+        ul li {
+          margin: 2rem 0;
+          i {
+            margin-right: 1rem;
+            color: $color--buttonblue;
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  padding: 3rem 0;
+  background-color: $color--maindarkblue;
+}

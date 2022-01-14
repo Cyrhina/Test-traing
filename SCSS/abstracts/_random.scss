@@ -13,3 +13,20 @@
   //   align-items: center;
   // }
 }
+
+.link-app {
+  margin-top: 1rem;
+  align-items: center;
+
+  ul li {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #f3f5fa;
+    padding: 0.8rem;
+    border-radius: 100%;
+
+    i {
+      font-size: 1.5rem;
+    }
+  }
+}
