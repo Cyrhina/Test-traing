@@ -28,6 +28,10 @@
   display: grid;
 }
 
+.grid-inline {
+  display: inline-grid;
+}
+
 .col-2 {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 4rem;
@@ -41,7 +45,12 @@
   grid-template-columns: 2fr 1fr;
   grid-gap: 4rem;
 }
+.col2-team {
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 4rem;
+}
 
-.col-9 {
-  grid-template-columns: repeat(9, 1fr);
+.col-3 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4rem;
 }

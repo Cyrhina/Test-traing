@@ -150,8 +150,8 @@
       line-height: 2rem;
       margin: 2rem 0;
       font-weight: 600;
-      //display: flex;
-      //justify-content: space-between;
+      display: flex;
+      justify-content: space-between;
 
       i {
         margin-left: 12rem;
@@ -325,6 +325,199 @@
         position: relative;
         border-radius: 10rem;
         color: white;
+      }
+    }
+
+    .portfolio-img {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+.team {
+  padding: 4rem 0;
+  background-color: #f3f5fa;
+  &__wrapper {
+    text-align: center;
+    p {
+      line-height: 2rem;
+      font-weight: 500;
+      font-size: 1.5rem;
+      color: rgba(14, 14, 14, 0.6);
+    }
+    .team-profile {
+      margin-top: 3rem;
+      .team-profile-list {
+        background-color: white;
+        padding: 2rem;
+        align-items: center;
+
+        .team-img {
+          img {
+            width: 100%;
+            height: auto;
+            border-radius: 100%;
+          }
+        }
+        .team-info {
+          font-size: 2rem;
+          line-height: 2rem;
+          font-weight: 500;
+          color: #36517e;
+          text-align: left;
+
+          h3 {
+            margin: 1rem 0;
+            color: rgba(14, 14, 14, 0.6);
+            font-size: 1.5rem;
+          }
+          .link-app {
+            margin-top: 1rem;
+            text-align: left;
+
+            ul li {
+              display: inline-flex;
+              flex-direction: column;
+              background-color: #f3f5fa;
+              padding: 0.8rem;
+              border-radius: 100%;
+
+              i {
+                font-size: 1.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.pricing {
+  padding: 8rem 0;
+  &__wrapper {
+    text-align: center;
+    p {
+      line-height: 2rem;
+      font-weight: 500;
+      font-size: 1.5rem;
+      color: rgba(14, 14, 14, 0.6);
+    }
+
+    .pricing-info {
+      margin-top: 3rem;
+      .pricing-description {
+        background-color: #f3f5fa;
+        text-align: left;
+        color: #36517e;
+        padding: 3rem;
+
+        h2 {
+          font-size: 2rem;
+          line-height: 2rem;
+          font-weight: 500;
+          margin: 1rem 0;
+          span {
+            font-size: 4rem;
+            line-height: 4rem;
+            font-weight: 600;
+          }
+        }
+
+        h4 {
+          color: #00a6eb;
+          margin-bottom: 1rem;
+        }
+        .pircing-navigate {
+          padding: 2rem 1rem;
+          margin-bottom: 2rem;
+          ul li {
+            margin-top: 1rem;
+            color: rgba(14, 14, 14, 0.6);
+
+            i {
+              margin-right: 0.5rem;
+              color: green;
+            }
+            span i {
+              margin-right: 1rem;
+              color: unset;
+            }
+          }
+        }
+
+        a {
+          font-size: 1.3rem;
+          position: relative;
+          border-radius: 2rem;
+          border: 1px solid #00a6eb;
+          padding: 5px 2rem;
+          color: black;
+        }
+        .active {
+          background-color: #00a6eb;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.frequently {
+  padding: 8rem 0;
+  background-color: #f3f5fa;
+
+  &__wrapper {
+    p {
+      text-align: center;
+      line-height: 2rem;
+      font-weight: 500;
+      font-size: 1.5rem;
+      color: rgba(14, 14, 14, 0.6);
+    }
+
+    .frequently-about-list {
+      color: rgba(14, 14, 14, 0.6);
+      margin-top: 3rem;
+      //width: 50%;
+      // display: block;
+      //justify-content: center;
+
+      ul li {
+        background-color: white;
+        padding: 2rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin: 2rem 0;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+      }
+      span {
+        color: #00a6eb;
+        font-weight: 600;
+        font-size: 2rem;
+        margin-right: 2rem;
+      }
+    }
+  }
+}
+
+.contact {
+  padding: 8rem 0;
+  &__wrapper {
+    p {
+      text-align: center;
+      line-height: 2rem;
+      font-weight: 500;
+      font-size: 1.5rem;
+      color: rgba(14, 14, 14, 0.6);
+    }
+    .contact-description {
+      .contact-des {
       }
     }
   }
